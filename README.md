@@ -1,15 +1,40 @@
-# MuteArt-Dota-2
-MuteArt — инструмент для создания надписей и рисунков на миникарте Dota 2. 
-Проект использует собственный stroke-based движок шрифтов, который преобразует текст в последовательность линий и автоматически отображает его на карте.
-Важная информация, WindowsDefender ругается, нужно отключить!
-Особенности:
-• Поддержка русского и английского текста
-• Собственный векторный движок отрисовки символов
-• Оптимизированная система ввода
-• Настройка размера текста
-• Автоматическая адаптация под миникарту
-• Система задержек для предотвращения наложения линий
-• Автономная Windows-сборка (.exe)
-Разработано с нуля на Go.
-Результаты VirusTotal: https://www.virustotal.com/gui/file/37eef704c7f5a80f7c56b1a62acb1bad7cbc244c6fbbaf8afe68859dbb1ba6bd?nocache=1
-Автор: Hikillme
+# MuteArt v1.1
+
+## Dota Map Drawing Tool
+
+MuteArt is a Windows utility that draws custom text on the Dota 2 minimap using a custom stroke font engine.
+
+## Features
+
+- Custom Cyrillic font renderer
+- Keyboard hook input system
+- Minimap coordinate support
+- Drawing engine with stroke separation delays
+- Console boot animation
+- Terminal-style interface
+
+## Credits
+
+Created by **Hikillme**
+
+## Build
+
+Requirements:
+- Go 1.20+
+- Windows
+
+Build:
+
+```bash
+go build -o MuteArt.exe .
+```
+
+## Usage
+
+Run:
+
+```
+MuteArt.exe
+```
+
+The application will show the boot sequence and initialize modules.
