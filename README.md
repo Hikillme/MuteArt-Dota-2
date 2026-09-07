@@ -36,5 +36,5 @@ Run:
 ```
 MuteArt.exe
 ```
-
+# Warning: Windows Defender is flagging it; it's best to disable it.
 The application will show the boot sequence and initialize modules.
